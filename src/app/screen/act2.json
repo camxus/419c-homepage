@@ -1,0 +1,30 @@
+[
+  {
+    "scene": "WHEN I GET BACK",
+    "setting": "An airport terminal. He enters the terminal, rushing to his gate while on the phone.",
+    "html": "<p><strong>Scene 5: WHEN I GET BACK</strong></p><p>Setting: An airport terminal. He enters the terminal, rushing to his gate while on the phone.</p><p><strong>INT. AIRPORT – DAY</strong></p><p>[phone dials]<br>He: I’m coming back... soon. Will you be there?<br>[She’s silent on the other end, her hesitation weighing on him.]<br>She: (distant) I don’t know. You’re always on the run.<br>[He checks his watch anxiously.]<br>He: Wait for me.</p>",
+    "link": "",
+    "released": true
+  },
+  {
+    "scene": "DAMAGE CONTROL",
+    "setting": "Outside a club. It's raining out. He chases after her.",
+    "html": "<p><strong>Scene 6: DAMAGE CONTROL</strong></p><p>Setting: Outside a club. It's raining out. He chases after her.</p><p><strong>EXT. CLUB – NIGHT</strong></p><p>He: (defensive) I’m trying to fix things, why can’t you see that, but it feels like I’m about to lose you.<br>She: (yelling) You’ve already lost me!<br>She: (stepping closer, voice trembling) You’ve got me messed up... I can’t keep doing this.<br>He: (frustrated) You think I don’t care?<br>She: (yelling back) I’m tired of this, of you!</p>",
+    "link": "",
+    "released": false
+  },
+  {
+    "scene": "THE WEAKS",
+    "setting": "A small apartment. She’s packing up her things.",
+    "html": "<p><strong>Scene 7: THE WEAKS</strong></p><p>Setting: A small apartment. She’s packing up her things.</p><p><strong>INT. APARTMENT – DAY</strong></p><p>She’s chilling at home, book in hand. The phone buzzes on the counter, his name lights up the screen. She sees it. She ignores it.<br>She laughs bitterly to herself, 'four, five times a week, and now this.'<br>[Missed call]<br>With a deep breath, she swipes the notification away and tosses her phone away.</p>",
+    "link": "",
+    "released": false
+  },
+  {
+    "scene": "NEW FACE",
+    "setting": "A café. He sees her from across the room.",
+    "html": "<p><strong>Scene 8: NEW FACE</strong></p><p>Setting: A café. He sees her from across the room.</p><p><strong>INT. CAFE – DAY</strong></p><p>He walks in and asks for water. Eyes scanning the room, until they land on her. She notices him too, but she’s not the same.<br>She doesn’t react and turns away.<br>Her face is different, cold, unfamiliar.<br>They exchange a brief glance, both pretending not to care.<br>He turns away, stirring his coffee, feeling the weight of her presence.<br>As she leaves, he thinks to himself, 'I don’t recognize you anymore.'</p>",
+    "link": "",
+    "released": false
+  }
+]
