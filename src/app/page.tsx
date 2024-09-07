@@ -5,6 +5,7 @@ import Link from "next/link";
 
 function Home() {
   const [open, setOpen] = useState(false);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [tag, setTag] = useState("");
   return (
     <div>
