@@ -5,7 +5,7 @@ import act2 from "./act2.json";
 function Page() {
   return (
     <div className="w-full bg-white p-20">
-      Youre curious. I like that
+      <div className="text-black">Youre curious. I like that</div>
       <div className="c6 doc-content">
         <div className="my-4">
           <span>ACT 1:</span>
