@@ -1,13 +1,13 @@
 import React from "react";
 import act1 from "./act1.json";
 import act2 from "./act2.json";
-import { Link } from "react-feather";
+import Link from "next/link";
 
 function Page() {
   return (
     <div className="w-full bg-white p-8 py-20">
       <div className="text-black">Youre curious. I like that</div>
-      <div className="c6 doc-content">
+      <div className="c6 doc-content" style={{paddingLeft: "3vw", paddingRight: "3vw"}}>
         <div className="my-4">
           <span>ACT 1:</span>
           {act1.map((scene, index) => (
