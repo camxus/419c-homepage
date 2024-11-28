@@ -82,7 +82,7 @@ function Dialog({ setOpen, tag }: IDialog) {
     >
       <Formik
         initialValues={initialValues}
-        onSubmit={(e: { [x: string]: unknown }) => onSubmit(e)}
+        onSubmit={onSubmit}
         validationSchema={validationSchema}
         innerRef={formikRef}
       >
