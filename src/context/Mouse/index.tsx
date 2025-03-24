@@ -22,7 +22,7 @@ const MouseContext = createContext<null | {
 // Provider component
 export function MouseProvider({ children }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [color, setColor] = useState("red"); // Default color
+  const [color, setColor] = useState(""); // Default color
   const [style, setStyle] = useState<MotionStyle>(null); // Default color
 
   useEffect(() => {
