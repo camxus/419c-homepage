@@ -5,7 +5,7 @@ import Dialog from "../components/Dialog";
 
 function Home() {
   const [open, setOpen] = useState(false);
-  // const [tag, setTag] = useState("");
+  const [tag] = useState("");
   const [transitioning, setTransitioning] = useState(false);
 
   const handleClick = () => {
