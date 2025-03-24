@@ -7,24 +7,25 @@
     "released": true
   },
   {
+    "scene": "FEVER",
+    "setting": "A small apartment. The air is heavy.",
+    "html": "<p><strong>Scene 3: FEVER</strong></p><p>Setting: A small apartment. The air is heavy.</p><p><strong>INT. APARTMENT – NIGHT</strong></p><p>She shakes her head, speaking in riddles, emotions hidden behind walls. He reaches for her again, hands shaking, wanting to fix what's broken.<br>She: (finally looking at him, frustrated) Just say what you want.</p>",
+    "link": "",
+    "released": true
+  },
+  {
     "scene": "VEAL",
     "setting": "She enters the car, teasing him as they drive.",
     "html": "<p><strong>Scene 2: VEAL</strong></p><p>Setting: A car speeding down a highway. She enters the car, teasing him as they drive.</p><p><strong>INT. CAR – NIGHT</strong></p><p>[She in the passenger seat with a playful smirk.]<br>She: You talk a lot of shit for someone who’s not gonna deliver.<br>[He glances at her, a grin forming on his face as he pushes the throttle.]<br>He: I told you. I always deliver.<br>[She leans closer, returning the energy.]<br>She: Prove it then.</p>",
     "link": "",
     "released": true
   },
-  {
-    "scene": "FEVER",
-    "setting": "A small apartment. The air is heavy.",
-    "html": "<p><strong>Scene 3: FEVER</strong></p><p>Setting: A small apartment. The air is heavy.</p><p><strong>INT. APARTMENT – NIGHT</strong></p><p>She shakes her head, speaking in riddles, emotions hidden behind walls. He reaches for her again, hands shaking, wanting to fix what's broken.<br>She: (finally looking at him, frustrated) Just say what you want.</p>",
-    "link": "",
-    "released": false
-  },
+
   {
     "scene": "TRUST ISSUES",
     "setting": "Alone in a bedroom, she waits for his call but it will never come.",
     "html": "<p><strong>Scene 4: TRUST ISSUES</strong></p><p>Setting: Alone in a bedroom, she waits for his call but it will never come.</p><p><strong>INT. BEDROOM – NIGHT</strong></p><p>She sits on the bed, phone in hand, eyes glued to the screen, waiting for his call. The clock ticks loudly in the background, echoing her impatience. 'Do you even care?' she thinks to herself, as the screen stays dark.</p>",
     "link": "",
-    "released": false
+    "released": true
   }
 ]
