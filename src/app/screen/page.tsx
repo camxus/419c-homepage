@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useMouseAnimation } from "@/context/Mouse";
 
 function Page() {
-  const { setColor, setStyle } = useMouseAnimation("black");
+  const { setStyle } = useMouseAnimation("black");
 
   return (
     <div className="bg-white">
