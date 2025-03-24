@@ -5,8 +5,11 @@ import { motion } from "framer-motion";
 import act1 from "./act1.json";
 import act2 from "./act2.json";
 import Link from "next/link";
+import { useMouseAnimation } from "@/context/Mouse";
 
 function Page() {
+  const { setColor, setStyle } = useMouseAnimation("black");
+
   return (
     <div className="bg-white">
       <motion.div
@@ -30,8 +33,15 @@ function Page() {
                 viewport={{ once: true, amount: 1 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                <Link href={scene.link}>
+                <Link href={scene.link} className="cursor-none">
                   <div
+                    onMouseEnter={() => {
+                      setStyle({
+                        scale: 4,
+                        background: "white",
+                      });
+                    }}
+                    onMouseLeave={() => setStyle(null)}
                     className={!scene.released ? "invisible my-20" : "my-20"}
                     dangerouslySetInnerHTML={{ __html: scene.html }}
                   />
@@ -49,10 +59,19 @@ function Page() {
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
-                <div
-                  className={!scene.released ? "invisible my-20" : "my-20"}
-                  dangerouslySetInnerHTML={{ __html: scene.html }}
-                />
+                <Link href={scene.link} className="cursor-none">
+                  <div
+                    onMouseEnter={() => {
+                      setStyle({
+                        scale: 4,
+                        background: "white",
+                      });
+                    }}
+                    onMouseLeave={() => setStyle(null)}
+                    className={!scene.released ? "invisible my-20" : "my-20"}
+                    dangerouslySetInnerHTML={{ __html: scene.html }}
+                  />{" "}
+                </Link>
               </motion.div>
             ))}
           </div>

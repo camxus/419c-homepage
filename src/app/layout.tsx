@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Mouse, { MouseProvider } from "@/context/Mouse";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,12 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <MouseProvider>
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          >
+          <Mouse/>
+          {children}
+        </body>
+      </html>
+    </MouseProvider>
   );
 }
