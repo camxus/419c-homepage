@@ -2,11 +2,10 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Dialog from "../components/Dialog";
-import Link from "next/link";
 
 function Home() {
   const [open, setOpen] = useState(false);
-  const [tag, setTag] = useState("");
+  // const [tag, setTag] = useState("");
   const [transitioning, setTransitioning] = useState(false);
 
   const handleClick = () => {
